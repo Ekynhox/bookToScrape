@@ -6,6 +6,8 @@ from PIL import Image
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from fonctions import get_category_url, get_all_books, get_data_book, get_image_book
+from slugify import slugify
+
 
 #on stock l'url et on la request via  get
 url = "http://books.toscrape.com/"
